@@ -110,7 +110,7 @@ while True:
         turn = True
     else:
         print("Already taken!")
-        print("hello")
+        print("Select another box")
 
     board[marker.get(mark)[0]][marker.get(mark)[1]] = sel_box
 
